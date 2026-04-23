@@ -1,0 +1,16 @@
+{
+  "name": "2robota",
+  "version": "1.0.0",
+  "description": "HTML CSS JS project with fetch JSON catalog",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve . -l 3000"
+  },
+  "keywords": ["html", "css", "javascript", "fetch", "json"],
+  "author": "Ruslan",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

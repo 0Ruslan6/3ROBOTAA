@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+/* =========================
+   TABLET (<= 768px)
+========================= */
+@media (max-width: 768px) {
+  /* HEADER */
+  .site-header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  /* BUTTONS */
+  .menu-toggle,
+  .theme-toggle {
+    width: 100%;
+  }
+
+  /* CONTAINER */
+  .container {
+    padding: 10px;
+  }
+
+  /* SERVICES GRID / CARDS */
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  /* TABLE */
+  .services-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* SEARCH / FILTER */
+  .search-box,
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* =========================
+   MOBILE (<= 480px)
+========================= */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .site-header {
+    padding: 10px;
+  }
+
+  .service-card {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .service-card h3 {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Веб розробка",
+    "description": "Створення сучасних сайтів на HTML, CSS, JS",
+    "price": 150,
+    "category": "development"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Дизайн",
+    "description": "Дизайн інтерфейсів та прототипів",
+    "price": 120,
+    "category": "design"
+  },
+  {
+    "id": 3,
+    "title": "Frontend React",
+    "description": "Розробка SPA додатків на React",
+    "price": 200,
+    "category": "development"
+  },
+  {
+    "id": 4,
+    "title": "Маркетинг",
+    "description": "Просування бізнесу в інтернеті",
+    "price": 100,
+    "category": "marketing"
+  },
+  {
+    "id": 5,
+    "title": "Навчання JS",
+    "description": "Курси JavaScript з нуля",
+    "price": 80,
+    "category": "education"
+  },
+  {
+    "id": 6,
+    "title": "Landing Page",
+    "description": "Односторінкові сайти під бізнес",
+    "price": 90,
+    "category": "development"
+  },
+  {
+    "id": 7,
+    "title": "Logo Design",
+    "description": "Створення логотипів",
+    "price": 60,
+    "category": "design"
+  },
+  {
+    "id": 8,
+    "title": "SEO Оптимізація",
+    "description": "Просування сайтів у Google",
+    "price": 110,
+    "category": "marketing"
+  }
+]

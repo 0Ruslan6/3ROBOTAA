@@ -1,0 +1,212 @@
+/* =========================
+   RESET
+========================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+/* =========================
+   HEADER
+========================= */
+.site-header {
+  background: #111827;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.section {
+  background: #1e293b;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+/* =========================
+   INPUTS (SEARCH / FILTER)
+========================= */
+#searchInput,
+#filterSelect,
+#sortSelect {
+  padding: 10px;
+  margin: 8px 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* =========================
+   TABLE (ВАЖЛИВО)
+========================= */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.services-table thead {
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  color: white;
+}
+
+.services-table th,
+.services-table td {
+  padding: 14px;
+  text-align: center;
+}
+
+.services-table tbody tr {
+  background: #1e293b;
+}
+
+.services-table tbody tr:nth-child(even) {
+  background: #111827;
+}
+
+.services-table tbody tr:hover {
+  background: #334155;
+}
+
+/* =========================
+   SERVICES CARDS (якщо треба)
+========================= */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  background: #273449;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.site-footer {
+  text-align: center;
+  padding: 10px;
+  background: #111827;
+  margin-top: 30px;
+}
+
+/* =========================
+   BACK TO TOP
+========================= */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+}
+
+/* =========================
+   MODAL
+========================= */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* =========================
+   ACCORDION
+========================= */
+.accordion-item p {
+  display: none;
+}
+
+.accordion-item.open p {
+  display: block;
+}
+
+/* =========================
+   LIGHT THEME
+========================= */
+body.light {
+  background: #f7f9fc;
+  color: #111;
+}
+
+body.light .section {
+  background: white;
+  color: #111;
+}
+
+body.light .services-table tbody tr {
+  background: white;
+  color: black;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+.card {
+  animation: fade 0.4s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
